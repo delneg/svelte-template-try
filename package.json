@@ -13,6 +13,9 @@
     "@testing-library/svelte": "^3.0.3",
     "@tsconfig/svelte": "^2.0.1",
     "@types/jest": "^26.0.21",
+    "@types/sql.js": "^1.4.3",
+    "comlink": "^4.3.1",
+    "sql.js": "^1.6.2",
     "autoprefixer": "^10.2.5",
     "babel-jest": "^26.6.3",
     "cssnano": "^5.0.6",
@@ -29,6 +32,9 @@
     "vite": "^2.1.0"
   },
   "dependencies": {
-    "tailwindcss": "^2.1.2"
+    "@jlongster/sql.js": "^1.6.7",
+    "absurd-sql": "^0.0.53",
+    "tailwindcss": "^2.1.2",
+    "typeorm": "^0.2.38"
   }
 }

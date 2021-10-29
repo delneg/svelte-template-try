@@ -1,6 +1,12 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
+    "target": "ESNext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
     "module": "ESNext",
     "baseUrl": "./",
     // "paths": {
@@ -12,5 +18,10 @@
    * Use globals.d.ts instead of compilerOptions.types
    * to avoid limiting type declarations.
    */
-  "include": ["globals.d.ts", "src/**/*.ts", "src/**/*.svelte"]
+  "include": [
+    "globals.d.ts",
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "src/**/*.wasm"
+  ]
 }
