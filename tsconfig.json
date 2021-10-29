@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": "./",
+    // "paths": {
+    //   "@components/*": ["components/*"]
+    // },
+    "resolveJsonModule": true
+  },
+  /**
+   * Use globals.d.ts instead of compilerOptions.types
+   * to avoid limiting type declarations.
+   */
+  "include": ["globals.d.ts", "src/**/*.ts", "src/**/*.svelte"]
+}
