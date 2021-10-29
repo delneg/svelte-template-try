@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   import { count } from './stores'
 
-  export let id: string
+  export let id: string;
 </script>
 
 <button

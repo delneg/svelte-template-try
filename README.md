@@ -2,30 +2,22 @@
 
 Get up and running with Svelte, Typescript, Tailwind and Vite. Also includes testing setup using Jest.
 
-## Installation
-
-```
-npx degit "garlandcrow/sttv#master" my_app
-cd my_app
-npm install
-```
-
 ## Scripts
 
 ### Start a development server
 
-`npm run dev`
+`pnpm run dev`
 
 ### Run tests
 
-`npm run test`
+`pnpm run test`
 or
-`npm run test:watch`
+`pnpm run test:watch`
 
 ### Build the application
 
-`npm run build`
+`pnpm run build`
 
 ### Serve the application
 
-`npm run serve`
+`pnpm run serve`
